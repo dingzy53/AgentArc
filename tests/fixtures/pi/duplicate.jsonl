@@ -1,0 +1,2 @@
+{"type":"session","version":3,"id":"sess-pi-fork","timestamp":"2026-02-03T04:05:06.000Z","cwd":"/Users/tester/proj"}
+{"type":"message","id":"a1","parentId":null,"timestamp":"2026-02-03T04:05:08.000Z","message":{"role":"assistant","provider":"xiaomi","model":"mimo-v2.5-pro","responseId":"resp-1","timestamp":1770000008000,"usage":{"input":100,"output":20,"cacheRead":300,"cacheWrite":5,"reasoning":10,"totalTokens":425,"cost":{"total":0.01}},"content":[{"type":"text","text":"fixture answer"}]}}

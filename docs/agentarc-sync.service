@@ -1,0 +1,13 @@
+[Unit]
+Description=agentarc session archive sync
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+# Adjust the path if agentarc is installed somewhere else.
+ExecStart=%h/.cargo/bin/agentarc sync
+# Uncomment to avoid the pricing auto-refresh on this machine.
+# Environment=AGENTARC_OFFLINE=1
+Nice=10
+IOSchedulingClass=idle

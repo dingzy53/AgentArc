@@ -1,0 +1,14 @@
+/target
+/.cargo-home
+/.dev-archive
+/.dev-cache
+/.dev-src
+.dev-config*.toml
+.dev-export*.md
+/check.log
+/clippy.log
+/.test-src
+/.test-out
+/.test-config.toml
+/dist
+.DS_Store

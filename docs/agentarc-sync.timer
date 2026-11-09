@@ -1,0 +1,11 @@
+[Unit]
+Description=Run agentarc sync periodically
+
+[Timer]
+OnCalendar=daily
+# Spread the start over a few minutes so several machines do not sync at once.
+RandomizedDelaySec=300
+Persistent=true
+
+[Install]
+WantedBy=timers.target
